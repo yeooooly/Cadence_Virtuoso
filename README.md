@@ -264,6 +264,18 @@ Size : 2.2um x 9.51um
 
 ## 4. Switch
 
+<h3 align="center">Switch 회로 구성</h3>
+
+<p align="center">
+  <img src="img/SW_SCH.png" width="60%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/SW_LAY.png" width="45%">
+</p>
+
 ## 5. MUX
 
 ### 2:1 MUX
