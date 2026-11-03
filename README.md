@@ -13,10 +13,10 @@
    - [4-input NOR Gate](#4-input-nor-gate)
 4. [Switch](#4-switch)
 5. [MUX](#5-mux)
-   - [2:1 MUX](#21-mux)
-   - [4:1 MUX](#41-mux)
-   - [8:1 MUX](#81-mux)
-   - [16:1 MUX](#161-mux)
+   - [2X1 MUX](#2x1-mux)
+   - [4X1 MUX](#4x1-mux)
+   - [8X1 MUX](#8x1-mux)
+   - [16X1 MUX](#16x1-mux)
 
 ---
 
@@ -278,9 +278,9 @@ Size : 2.2um x 9.51um
 
 ## 5. MUX
 
-### 2:1 MUX
+### 2X1 MUX
 
-<h3 align="center">2:1 MUX 회로 구성</h3>
+<h3 align="center">2X1 MUX 회로 구성</h3>
 
 <p align="center">
   <img src="img/21MUX_LOG_SCH.png" width="60%">
@@ -301,15 +301,15 @@ Size : 2.2um x 9.51um
 <h3 align="center">Layout</h3>
 
 <p align="center">
-  <img src="img/21MUX_LOG_LAY.png" width="45%">
+  <img src="img/21MUX_LOG_LAY.png" width="85%">
 </p>
 
 <p align="center">
 Size : 4.63um x 5.87um
 </p>
 
-### 4:1 MUX
+### 4X1 MUX
 
-### 8:1 MUX
+### 8X1 MUX
 
-### 16:1 MUX
+### 16X1 MUX
