@@ -280,6 +280,34 @@ Size : 2.2um x 9.51um
 
 ### 2:1 MUX
 
+<h3 align="center">2:1 MUX 회로 구성</h3>
+
+<p align="center">
+  <img src="img/21MUX_LOG_SCH.png" width="60%">
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/21MUX_LOG_TB.png" width="90%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/21MUX_LOG_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/21MUX_LOG_LAY.png" width="45%">
+</p>
+
+<p align="center">
+Size : 4.63um x 5.87um
+</p>
+
 ### 4:1 MUX
 
 ### 8:1 MUX
