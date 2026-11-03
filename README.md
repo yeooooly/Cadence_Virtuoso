@@ -162,6 +162,38 @@ Size : 2.2um x 5.685um
 
 ### 2-input NOR Gate
 
+<h3 align="center">2-input NOR Gate 회로 구성</h3>
+
+<p align="center">
+  <img src="img/2NOR_SCH.png" width="60%">
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/2NOR_TB.png" width="90%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/2NOR_SIM.png" width="90%">
+</p>
+
+<p align="center">
+PMOS Width 시뮬레이션한 결과, <b>3.99u</b>일 때 가장 안정적으로 동작
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/2NOR_LAY.png" width="45%">
+</p>
+
+<p align="center">
+Size : 1.36um x 7.06um
+</p>
+
 ### 3-input NOR Gate
 
 ### 4-input NOR Gate
