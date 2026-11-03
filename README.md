@@ -41,6 +41,20 @@
   <img src="img/F3.png" width="90%">
 </p>
 
+<p align="center">
+PMOS Width 시뮬레이션한 결과, <b>2.91u</b>일 때 가장 안정적으로 동작
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/NOT_LAY.png" width="45%">
+</p>
+
+<p align="center">
+Size : 1.16um x 5.84um
+</p>
+
 ## 2. NAND Gate
 
 ### 2-input NAND Gate
