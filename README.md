@@ -2,15 +2,15 @@
 
 ## 목차
 
-1. [NOT](#1-not)
-2. [NAND](#2-nand)
-   - [2-input NAND](#2-input-nand)
-   - [3-input NAND](#3-input-nand)
-   - [4-input NAND](#4-input-nand)
-3. [NOR](#3-nor)
-   - [2-input NOR](#2-input-nor)
-   - [3-input NOR](#3-input-nor)
-   - [4-input NOR](#4-input-nor)
+1. [NOT Gate](#1-not-gate)
+2. [NAND Gate](#2-nand-gate)
+   - [2-input NAND Gate](#2-input-nand-gate)
+   - [3-input NAND Gate](#3-input-nand-gate)
+   - [4-input NAND Gate](#4-input-nand-gate)
+3. [NOR Gate](#3-nor-gate)
+   - [2-input NOR Gate](#2-input-nor-gate)
+   - [3-input NOR Gate](#3-input-nor-gate)
+   - [4-input NOR Gate](#4-input-nor-gate)
 4. [Switch](#4-switch)
 5. [MUX](#5-mux)
    - [2:1 MUX](#21-mux)
@@ -20,30 +20,42 @@
 
 ---
 
-## 1. NOT
+## 1. NOT Gate
 
-### NOT Gate 회로 구성
+<h3 align="center">NOT Gate 회로 구성</h3>
 
 <p align="center">
   <img src="img/NOT_SCH2.png" width="45%">
   <img src="img/NOT_SCH.png" width="45%">
 </p>
 
-## 2. NAND
+<h3 align="center">Symbol &amp; Test Bench</h3>
 
-### 2-input NAND
+<p align="center">
+  <img src="img/F2.png" width="90%">
+</p>
 
-### 3-input NAND
+<h3 align="center">Simulation</h3>
 
-### 4-input NAND
+<p align="center">
+  <img src="img/F3.png" width="90%">
+</p>
 
-## 3. NOR
+## 2. NAND Gate
 
-### 2-input NOR
+### 2-input NAND Gate
 
-### 3-input NOR
+### 3-input NAND Gate
 
-### 4-input NOR
+### 4-input NAND Gate
+
+## 3. NOR Gate
+
+### 2-input NOR Gate
+
+### 3-input NOR Gate
+
+### 4-input NOR Gate
 
 ## 4. Switch
 
