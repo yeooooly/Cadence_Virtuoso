@@ -25,8 +25,8 @@
 ### NOT Gate 회로 구성
 
 <p align="center">
-  <img src="img/NOT_SCH.png" width="45%">
   <img src="img/NOT_SCH2.png" width="45%">
+  <img src="img/NOT_SCH.png" width="45%">
 </p>
 
 ## 2. NAND
