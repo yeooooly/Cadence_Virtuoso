@@ -25,8 +25,7 @@
 <h3 align="center">NOT Gate 회로 구성</h3>
 
 <p align="center">
-  <img src="img/NOT_SCH2.png" width="45%">
-  <img src="img/NOT_SCH.png" width="45%">
+  <img src="img/NOT_SCH.png" width="60%">
 </p>
 
 <h3 align="center">Symbol &amp; Test Bench</h3>
@@ -58,6 +57,38 @@ Size : 1.16um x 5.84um
 ## 2. NAND Gate
 
 ### 2-input NAND Gate
+
+<h3 align="center">2-input NAND Gate 회로 구성</h3>
+
+<p align="center">
+  <img src="img/2NAND.png" width="60%">
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/2NAND_TB.png" width="90%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/2NAND_SIM.png" width="90%">
+</p>
+
+<p align="center">
+PMOS Width 시뮬레이션한 결과, <b>2.53u</b>일 때 가장 안정적으로 동작
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/2NAND_LAY.png" width="45%">
+</p>
+
+<p align="center">
+Size : 1.36um x 5.6um
+</p>
 
 ### 3-input NAND Gate
 
