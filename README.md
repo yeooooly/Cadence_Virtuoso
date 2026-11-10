@@ -20,6 +20,7 @@
    - [MUX 비교](#mux-비교-logic-vs-switch)
 6. [ADDER](#6-adder)
    - [XOR Gate](#xor-gate)
+   - [Half Adder](#half-adder)
 
 ---
 
@@ -585,4 +586,38 @@ Switch(Transmission Gate) 방식이 Logic 방식보다 트랜지스터 수와 �
 
 <p align="center">
 Size : 2.56um x 6.5um
+</p>
+
+### Half Adder
+
+<h3 align="center">Half Adder 회로 구성</h3>
+
+<p align="center">
+  <img src="img/HALFADDER_SCH.png" width="60%">
+</p>
+
+<p align="center">
+S = A ⊕ B, &nbsp;C = A · B
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/HALFADDER_TB.png" width="90%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/HALFADDER_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/HALFADDER_LAY.png" width="45%">
+</p>
+
+<p align="center">
+Area : 4.6um x 6.5um = <b>29.9 µm²</b>
 </p>
