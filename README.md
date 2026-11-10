@@ -658,6 +658,10 @@ S = A ⊕ B ⊕ Cin, &nbsp;Cout = AB + Cin(A ⊕ B)
   <img src="img/FULLADDER_LAY.png" width="70%">
 </p>
 
+<p align="center">
+Area : 11.11um x 7.33um = <b>81.44 µm²</b>
+</p>
+
 ### 4-bit Adder / Subtractor
 
 <h3 align="center">4-bit Adder / Subtractor 구조</h3>
