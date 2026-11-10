@@ -25,6 +25,7 @@
    - [4-bit Adder / Subtractor](#4-bit-adder--subtractor)
 7. [ANALOG CIRCUIT](#7-analog-circuit)
    - [Common Source Amp](#common-source-amp)
+   - [Differential Amp](#differential-amp)
 
 ---
 
@@ -781,4 +782,49 @@ Gate로 입력하고 Drain에서 출력하는 MOSFET 단일단 증폭기<br>이�
 <p align="center">
   <img src="img/CS_AMP_LVS.png" width="40%">
   <img src="img/CS_AMP_LVS2.png" width="45%">
+</p>
+
+### Differential Amp
+
+<h3 align="center">Schematic</h3>
+
+<p align="center">
+  <img src="img/DIF_AMP_SCH.png" width="60%">
+</p>
+
+<h3 align="center">Symbol</h3>
+
+<p align="center">
+  <img src="img/DIF_AMP_SYM.png" width="45%">
+</p>
+
+<h3 align="center">Simulation (Tran) : Input / Output</h3>
+
+<p align="center">
+  <img src="img/DIF_AMP_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Simulation (AC) : dB20 Gain / Phase</h3>
+
+<p align="center">
+  <img src="img/DIF_AMP_AC.png" width="90%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/DIF_AMP_LAY.png" width="90%">
+</p>
+
+<h3 align="center">DRC</h3>
+
+<p align="center">
+  <img src="img/DIF_AMP_DRC.png" width="75%">
+</p>
+
+<h3 align="center">LVS</h3>
+
+<p align="center">
+  <img src="img/DIF_AMP_LVS.png" width="55%">
+  <img src="img/DIF_AMP_LVS2.png" width="40%">
 </p>
