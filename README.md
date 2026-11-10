@@ -22,6 +22,7 @@
    - [XOR Gate](#xor-gate)
    - [Half Adder](#half-adder)
    - [Full Adder](#full-adder)
+   - [4-bit Adder / Subtractor](#4-bit-adder--subtractor)
 
 ---
 
@@ -651,4 +652,61 @@ S = A ⊕ B ⊕ Cin, &nbsp;Cout = AB + Cin(A ⊕ B)
 
 <p align="center">
   <img src="img/FULLADDER_LAY.png" width="70%">
+</p>
+
+### 4-bit Adder / Subtractor
+
+<h3 align="center">4-bit Adder / Subtractor 구조</h3>
+
+<p align="center">
+  <img src="img/4BIT_FULL_SUB_BLOCK.png" width="60%">
+</p>
+
+<p align="center">
+Full Adder 4개 + XOR 4개로 구성, SIGN 신호로 덧셈(SIGN=0)과 뺄셈(SIGN=1)을 선택
+</p>
+
+<h3 align="center">4-bit Adder / Subtractor 회로 구성</h3>
+
+<p align="center">
+  <img src="img/4BIT_FULL_SUB_SCH.png" width="80%">
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/4BIT_FULL_SUB_TB.png" width="60%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/4BIT_FULL_SUB_SIM.png" width="90%">
+</p>
+
+<p align="center">
+A = 1000, B = 0011<br>SIGN=0 (A+B) : S = 1011, Cout = 0 &nbsp;/&nbsp; SIGN=1 (A−B) : S = 0101, Cout = 1
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/4BIT_FULL_SUB_LAY.png" width="100%">
+</p>
+
+<p align="center">
+Area : 53.77um x 8.865um = <b>476.67 µm²</b>
+</p>
+
+<h3 align="center">DRC</h3>
+
+<p align="center">
+  <img src="img/4BIT_FULL_SUB_DRC.png" width="80%">
+</p>
+
+<h3 align="center">LVS</h3>
+
+<p align="center">
+  <img src="img/4BIT_FULL_SUB_LVS.png" width="45%">
+  <img src="img/4BIT_FULL_SUB_LVS2.png" width="50%">
 </p>
