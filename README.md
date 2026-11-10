@@ -26,6 +26,7 @@
 7. [ANALOG CIRCUIT](#7-analog-circuit)
    - [Common Source Amp](#common-source-amp)
    - [Differential Amp](#differential-amp)
+8. [ONE CHIP](#8-one-chip)
 
 ---
 
@@ -827,4 +828,36 @@ Gate로 입력하고 Drain에서 출력하는 MOSFET 단일단 증폭기<br>이�
 <p align="center">
   <img src="img/DIF_AMP_LVS.png" width="55%">
   <img src="img/DIF_AMP_LVS2.png" width="40%">
+</p>
+
+## 8. ONE CHIP
+
+<h3 align="center">Schematic</h3>
+
+<p align="center">
+  <img src="img/ONECHIP_SCH.png" width="80%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/ONECHIP_LAY.png" width="45%">
+  <img src="img/ONECHIP_LAY_LABEL.png" width="50%">
+</p>
+
+<p align="center">
+Analog Circuit (CS_AMP, DIF_AMP) + Digital Circuit (Logic Gate, MUX, ADDER)
+</p>
+
+<h3 align="center">DRC</h3>
+
+<p align="center">
+  <img src="img/ONECHIP_DRC.png" width="70%">
+</p>
+
+<h3 align="center">LVS</h3>
+
+<p align="center">
+  <img src="img/ONECHIP_LVS.png" width="45%">
+  <img src="img/ONECHIP_LVS2.png" width="50%">
 </p>
