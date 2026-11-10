@@ -372,6 +372,36 @@ Area : <b>16.56 µm²</b>
 Area : <b>100.86 µm²</b>
 </p>
 
+#### Switch
+
+<h3 align="center">4X1 MUX (Switch) 회로 구성</h3>
+
+<p align="center">
+  <img src="img/41MUX_SW_SCH.png" width="60%">
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/41MUX_SW_TB.png" width="90%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/41MUX_SW_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/41MUX_SW_LAY.png" width="50%">
+</p>
+
+<p align="center">
+Area : <b>52.52 µm²</b>
+</p>
+
 ### 8X1 MUX
 
 ### 16X1 MUX
