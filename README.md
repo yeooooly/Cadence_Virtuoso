@@ -19,6 +19,7 @@
    - [16X1 MUX](#16x1-mux)
    - [MUX 비교](#mux-비교-logic-vs-switch)
 6. [ADDER](#6-adder)
+   - [XOR Gate](#xor-gate)
 
 ---
 
@@ -554,4 +555,34 @@ Switch(Transmission Gate) 방식이 Logic 방식보다 트랜지스터 수와 �
 <p align="center">
 <b>Half Adder</b> : 1-bit 입력 A, B를 더함 &nbsp;→&nbsp; S = A ⊕ B, &nbsp;C = A · B<br>
 <b>Full Adder</b> : A, B와 carry-in(Cin)을 더함 (Half Adder 2개 + OR 게이트) &nbsp;→&nbsp; S = A ⊕ B ⊕ Cin, &nbsp;Cout = AB + Cin(A ⊕ B)
+</p>
+
+### XOR Gate
+
+<h3 align="center">XOR Gate 회로 구성</h3>
+
+<p align="center">
+  <img src="img/XOR_SCH.png" width="60%">
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/XOR_TB.png" width="90%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/XOR_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/XOR_LAY.png" width="40%">
+</p>
+
+<p align="center">
+Size : 2.56um x 6.5um
 </p>
