@@ -280,7 +280,9 @@ Size : 2.2um x 9.51um
 
 ### 2X1 MUX
 
-<h3 align="center">2X1 MUX 회로 구성</h3>
+#### Logic
+
+<h3 align="center">2X1 MUX (Logic) 회로 구성</h3>
 
 <p align="center">
   <img src="img/21MUX_LOG_SCH.png" width="60%">
@@ -306,6 +308,36 @@ Size : 2.2um x 9.51um
 
 <p align="center">
 Size : 4.63um x 5.87um
+</p>
+
+#### Switch
+
+<h3 align="center">2X1 MUX (Switch) 회로 구성</h3>
+
+<p align="center">
+  <img src="img/21MUX_SW_SCH.png" width="60%">
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/21MUX_SW_TB.png" width="90%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/21MUX_SW_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/21MUX_SW_LAY.png" width="35%">
+</p>
+
+<p align="center">
+Area : <b>16.56 µm²</b>
 </p>
 
 ### 4X1 MUX
