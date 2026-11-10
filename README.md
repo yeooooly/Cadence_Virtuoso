@@ -17,6 +17,7 @@
    - [4X1 MUX](#4x1-mux)
    - [8X1 MUX](#8x1-mux)
    - [16X1 MUX](#16x1-mux)
+   - [MUX 비교](#mux-비교-logic-vs-switch)
 
 ---
 
@@ -494,4 +495,55 @@ Area : <b>135.66 µm²</b>
 
 <p align="center">
 Area : <b>741.90 µm²</b>
+</p>
+
+#### Switch
+
+<h3 align="center">16X1 MUX (Switch) 회로 구성</h3>
+
+<p align="center">
+  <img src="img/161MUX_SW_SCH.png" width="60%">
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/161MUX_SW_TB.png" width="90%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/161MUX_SW_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/161MUX_SW_LAY.png" width="90%">
+</p>
+
+<p align="center">
+Area : <b>310.02 µm²</b>
+</p>
+
+### MUX 비교 (Logic vs Switch)
+
+<div align="center">
+
+| Area (µm²) | 2X1 MUX | 4X1 MUX | 8X1 MUX | 16X1 MUX |
+|:---:|:---:|:---:|:---:|:---:|
+| Logic | 27.18 | 100.86 | 272.45 | 741.90 |
+| Switch | 16.56 | 52.52 | 135.66 | 310.02 |
+| Ratio | 1.64 | 1.92 | 2.01 | 2.39 |
+
+| Transistor 수 | 2X1 MUX | 4X1 MUX | 8X1 MUX | 16X1 MUX |
+|:---:|:---:|:---:|:---:|:---:|
+| Logic | 14 | 42 | 98 | 210 |
+| Switch | 6 | 16 | 38 | 78 |
+
+</div>
+
+<p align="center">
+Switch(Transmission Gate) 방식이 Logic 방식보다 트랜지스터 수와 면적이 적고, 입력이 많아질수록 차이가 커짐
 </p>
