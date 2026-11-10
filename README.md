@@ -21,6 +21,7 @@
 6. [ADDER](#6-adder)
    - [XOR Gate](#xor-gate)
    - [Half Adder](#half-adder)
+   - [Full Adder](#full-adder)
 
 ---
 
@@ -620,4 +621,34 @@ S = A ⊕ B, &nbsp;C = A · B
 
 <p align="center">
 Area : 4.6um x 6.5um = <b>29.9 µm²</b>
+</p>
+
+### Full Adder
+
+<h3 align="center">Full Adder 회로 구성</h3>
+
+<p align="center">
+  <img src="img/FULLADDER_SCH.png" width="80%">
+</p>
+
+<p align="center">
+S = A ⊕ B ⊕ Cin, &nbsp;Cout = AB + Cin(A ⊕ B)
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/FULLADDER_TB.png" width="70%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/FULLADDER_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/FULLADDER_LAY.png" width="70%">
 </p>
