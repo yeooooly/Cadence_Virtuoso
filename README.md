@@ -23,6 +23,7 @@
    - [Half Adder](#half-adder)
    - [Full Adder](#full-adder)
    - [4-bit Adder / Subtractor](#4-bit-adder--subtractor)
+7. [ANALOG CIRCUIT](#7-analog-circuit)
 
 ---
 
@@ -710,3 +711,20 @@ Area : 53.77um x 8.865um = <b>476.67 µm²</b>
   <img src="img/4BIT_FULL_SUB_LVS.png" width="45%">
   <img src="img/4BIT_FULL_SUB_LVS2.png" width="50%">
 </p>
+
+## 7. ANALOG CIRCUIT
+
+<p align="center">
+Common Source Amp / Differential Amp (Single-ended Output)
+</p>
+
+<h3 align="center">Spec</h3>
+
+<div align="center">
+
+| | Res | Nmos0 | Nmos1 | Nmos2 | Nmos3 | Pmos0 | Pmos1 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| CS_Amp | 4k | 1um | X | X | X | X | X |
+| Diff_Amp | 25k | 2um | 2um | 800nm | 800nm | 800nm | 250nm |
+
+</div>
