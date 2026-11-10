@@ -18,6 +18,7 @@
    - [8X1 MUX](#8x1-mux)
    - [16X1 MUX](#16x1-mux)
    - [MUX 비교](#mux-비교-logic-vs-switch)
+6. [ADDER](#6-adder)
 
 ---
 
@@ -546,4 +547,11 @@ Area : <b>310.02 µm²</b>
 
 <p align="center">
 Switch(Transmission Gate) 방식이 Logic 방식보다 트랜지스터 수와 면적이 적고, 입력이 많아질수록 차이가 커짐
+</p>
+
+## 6. ADDER
+
+<p align="center">
+<b>Half Adder</b> : 1-bit 입력 A, B를 더함 &nbsp;→&nbsp; S = A ⊕ B, &nbsp;C = A · B<br>
+<b>Full Adder</b> : A, B와 carry-in(Cin)을 더함 (Half Adder 2개 + OR 게이트) &nbsp;→&nbsp; S = A ⊕ B ⊕ Cin, &nbsp;Cout = AB + Cin(A ⊕ B)
 </p>
