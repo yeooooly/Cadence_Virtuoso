@@ -24,6 +24,7 @@
    - [Full Adder](#full-adder)
    - [4-bit Adder / Subtractor](#4-bit-adder--subtractor)
 7. [ANALOG CIRCUIT](#7-analog-circuit)
+   - [Common Source Amp](#common-source-amp)
 
 ---
 
@@ -728,3 +729,56 @@ Common Source Amp / Differential Amp (Single-ended Output)
 | Diff_Amp | 25k | 2um | 2um | 800nm | 800nm | 800nm | 250nm |
 
 </div>
+
+### Common Source Amp
+
+<h3 align="center">CS Stage with Resistive Load</h3>
+
+<p align="center">
+  <img src="img/CS_AMP_CIRCUIT.png" width="30%">
+</p>
+
+<p align="center">
+  <img src="img/CS_AMP_EQ.png" width="60%">
+</p>
+
+<p align="center">
+  <img src="img/CS_AMP_SMALL.png" width="70%">
+</p>
+
+<p align="center">
+Gate로 입력하고 Drain에서 출력하는 MOSFET 단일단 증폭기<br>이득 Av ≈ −gm·R<sub>D</sub> &nbsp;→&nbsp; 출력 위상이 입력과 180° 반대 (반전 증폭)
+</p>
+
+<h3 align="center">Schematic</h3>
+
+<p align="center">
+  <img src="img/CS_AMP_SCH.png" width="45%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/CS_AMP_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Simulation (AC) : dB20 Gain / Phase</h3>
+
+<p align="center">
+  <img src="img/CS_AMP_GAIN.png" width="49%">
+  <img src="img/CS_AMP_PHASE.png" width="49%">
+</p>
+
+<h3 align="center">Layout &amp; DRC</h3>
+
+<p align="center">
+  <img src="img/CS_AMP_LAY.png" width="15%">
+  <img src="img/CS_AMP_DRC.png" width="30%">
+</p>
+
+<h3 align="center">LVS</h3>
+
+<p align="center">
+  <img src="img/CS_AMP_LVS.png" width="40%">
+  <img src="img/CS_AMP_LVS2.png" width="45%">
+</p>
