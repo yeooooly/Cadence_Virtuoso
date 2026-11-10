@@ -342,6 +342,36 @@ Area : <b>16.56 µm²</b>
 
 ### 4X1 MUX
 
+#### Logic
+
+<h3 align="center">4X1 MUX (Logic) 회로 구성</h3>
+
+<p align="center">
+  <img src="img/41MUX_LOG_SCH.png" width="60%">
+</p>
+
+<h3 align="center">Symbol &amp; Test Bench</h3>
+
+<p align="center">
+  <img src="img/41MUX_LOG_TB.png" width="90%">
+</p>
+
+<h3 align="center">Simulation</h3>
+
+<p align="center">
+  <img src="img/41MUX_LOG_SIM.png" width="90%">
+</p>
+
+<h3 align="center">Layout</h3>
+
+<p align="center">
+  <img src="img/41MUX_LOG_LAY.png" width="85%">
+</p>
+
+<p align="center">
+Area : <b>100.86 µm²</b>
+</p>
+
 ### 8X1 MUX
 
 ### 16X1 MUX
